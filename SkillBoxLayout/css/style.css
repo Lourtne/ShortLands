@@ -24,11 +24,11 @@ body {
 /*index.html*/
 
 .main-content {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
   color: #fff;
   background-color: #070217;
 }
@@ -68,9 +68,10 @@ body {
 }
 
 .figure-article {
+  margin: 0;
+  width: 872px;
   display: inline-block;
   margin-bottom: 40px;
-  width: 872px;
 }
 
 .article-name {
@@ -79,14 +80,14 @@ body {
 }
 
 .article-paragraph {
+  width: 872px;
   margin-top: 0;
   margin-bottom: 40px;
-  width: 872px;
 }
 
 .gray-block {
-  border-radius: 20px;
   padding: 30px;
+  border-radius: 20px;
   background-color: #f3f3f3;
 }
 
