@@ -18,7 +18,7 @@ img {
 }
 
 body {
-	font-family: 'font', sans-serif;
+	font-family: Arial, Verdana, sans-serif;
 }
 
 /*index.html*/
@@ -44,10 +44,24 @@ body {
 .nav-item {
   display: inline-block;
   padding: 24px 49px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3f2aff;
 }
 
 .nav-item:not(:last-child) {
   margin-right: 25px;
+}
+
+.download {
+  padding-left: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #3f2aff;
+  background-image: url("../img/download.png");
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -61,10 +75,17 @@ body {
 .h2-article {
   margin-top: 0px;
   margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 46px;
+  color: #333;
 }
 
 .h3-article {
   margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  color: #333;
 }
 
 .figure-article {
@@ -72,23 +93,63 @@ body {
   width: 872px;
   display: inline-block;
   margin-bottom: 40px;
+  /* font-size: 0; */
+}
+
+.figcaption {
+  border-left: #b6b6b6 solid 1px;
+  border-right: #b6b6b6 solid 1px;
+  border-bottom: #b6b6b6 solid 1px;
+  padding: 19px 0;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
 }
 
 .article-name {
   margin-top: 0px;
   margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
 }
 
 .article-paragraph {
   width: 872px;
   margin-top: 0;
   margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+.important_sentence {
+   border-radius: 20px;
+   padding: 50px 95px;
+   width: 100%;
+   font-weight: 700;
+   font-size: 30px;
+   color: #fff;
+   background-color: #3f2aff;
 }
 
 .gray-block {
   padding: 30px;
   border-radius: 20px;
   background-color: #f3f3f3;
+  background-position: right center;
+  /* background-size: 20px 20px; */
+  background-repeat: no-repeat;
+}
+
+.blue-image {
+  background-image: url("../img/decorate-1.png");
+}
+
+.blue-star {
+  background-image: url("../img/decorate-2.png");
 }
 
 .gray-block:not(:last-child) {
@@ -103,6 +164,16 @@ body {
 .list {
   margin: 0;
   padding-left: 15px;
+}
+
+.list-link {
+  color: #3f2aff;
+  font-size: 20px;
+  border-bottom: #3f2aff solid 1px;
+}
+
+.list-item::marker {
+  color: #3f2aff;;
 }
 
 .list-item:not(:last-child) {
