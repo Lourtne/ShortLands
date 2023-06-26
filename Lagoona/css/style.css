@@ -1,0 +1,175 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 1200px;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-header {
+}
+
+.link-logo {
+}
+
+.logo {
+}
+
+.telephone {
+}
+
+.personal-area-link {
+}
+
+.bottom-header {
+}
+
+.nav {
+}
+
+.nav-list {
+}
+
+.nav-item {
+}
+
+.nav-link {
+}
+
+.btn {
+}
+
+.section-offers {
+}
+
+.section-title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 130%;
+}
+
+.offers-list {
+}
+
+.offer-item {
+}
+
+.offer {
+}
+
+.offer-title {
+}
+
+.price {
+}
+
+.more {
+}
+
+.section-aboutus {
+}
+
+.aboutus-text {
+}
+
+.section-services {
+}
+
+.services-list {
+}
+
+.service-item {
+}
+
+.services-link {
+}
+
+.services-text {
+}
+
+.section-advantages {
+}
+
+.advantages-list {
+}
+
+.advantage-item {
+}
+
+.advantage-icon {
+}
+
+.advantages-text {
+}
+
+.section-accommodation {
+}
+
+.accommodations-list {
+}
+
+.accommodation-item {
+}
+
+.accommodation {
+}
+
+.accommodation-logo {
+}
+
+.accommodation-name {
+}
+
+.accommodation-descr {
+}
+
+.accommodation-price {
+}
+
+.country-place {
+}
+
+.accommodation-btn {
+}
+
+.stars {
+}
+
+.all-variants {
+}
